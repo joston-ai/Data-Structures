@@ -11,7 +11,8 @@ int initialization(struct Rectangle *r,int l,int b)
 {
     r->length=l;
     r->breath=b;
-}
+}//yo
+
 int area(struct Rectangle r1)
 {
     return r1.length*r1.breath;
